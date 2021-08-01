@@ -302,3 +302,67 @@ body {
         margin-bottom: 2rem;
     }
 }
+
+@media only screen and (max-height: 550px) {
+    .text-section .text-heading {
+        font-size: 4rem;
+    }
+    .text-section p {
+        font-size: 1.5rem;
+        word-spacing: 0.25rem;
+    }
+    .text-section button {
+        margin-top: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+}
+@media only screen and (max-height: 480px) {
+    .text-section .text-heading {
+        font-size: 4rem;
+    }
+    .header .image {
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+    .contact p {
+        margin: 1rem 0;
+    }
+    .shop-cart {
+        position: absolute;
+        bottom: 0;
+        right: 1%;
+    }
+}
+@media only screen and (max-height: 425px) {
+    .photo-gallery .image {
+        display: none;
+    }
+    .contact {
+        left: 10%;
+        bottom: 2%;
+        font-size: 1rem ;
+    }
+}
+@media only screen and (max-height: 385px) {
+    .text-section .text-heading {
+        font-size: 2rem;
+    }
+    .text-section p {
+        font-size: 1rem;
+    }
+    .text-section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .shop-cart button {
+        display: none;
+    }
+}
+@media only screen and (max-height: 385px) {
+    .text-section {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+}
